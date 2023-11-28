@@ -1,0 +1,17 @@
+#Create a program using a for loop to print the Fibonacci series up to a specified number of terms entered by the user.
+n = int(input("Enter the number of terms: "))
+
+# initialize the first two terms
+a, b = 0, 1
+
+# print the first two terms
+print(a, b, end=" ")
+
+# loop from 2 to n
+for i in range(2, n):
+    # calculate the next term
+    c = a + b
+    # print the next term
+    print(c, end=" ")
+    # update the values of a and b
+    a, b = b, c

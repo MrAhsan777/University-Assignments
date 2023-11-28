@@ -1,0 +1,5 @@
+#Create a program that uses a for loop to iterate through a list of names and prints each name.
+names = ['Alice', 'Bob', 'Charlie', 'David']
+
+for name in names:
+    print(name)

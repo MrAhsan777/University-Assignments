@@ -1,0 +1,10 @@
+#Write a program using a while loop to find the sum of natural numbers up to a given number entered by the user.
+num = int(input("Enter a number: "))
+sum = 0
+i = 1
+
+while i <= num:
+    sum += i
+    i += 1
+
+print("The sum of natural numbers up to", num, "is", sum)
