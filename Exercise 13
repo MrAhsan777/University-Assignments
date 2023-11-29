@@ -1,0 +1,7 @@
+#Write a program that prompts the user to enter their age. If the age is 18 or above, print "You are an adult," otherwise print "You are a minor."
+age = int(input("Enter your age: "))
+
+if age >= 18:
+    print("You are an adult")
+else:
+    print("You are a minor")

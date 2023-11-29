@@ -1,0 +1,8 @@
+#Create a simple login system. Ask the user to enter their username and password. If the username is "admin" and the password is "12345", print "Login successful," otherwise print "Login failed."
+username = input("Enter your username: ")
+password = input("Enter your password: ")
+
+if username == "admin" and password == "12345":
+    print("Login successful")
+else:
+    print("Login failed")
